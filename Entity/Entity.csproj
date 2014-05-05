@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBD0F1FE-0FDB-4841-8AAF-C80EA14A6EDE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Blockprice.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Customertype.cs" />
+    <Compile Include="Dailyplan.cs" />
+    <Compile Include="Debt.cs" />
+    <Compile Include="Downloadsetting.cs" />
+    <Compile Include="Faresetting.cs" />
+    <Compile Include="Film.cs" />
+    <Compile Include="Filmarea.cs" />
+    <Compile Include="Filmcategory.cs" />
+    <Compile Include="Filmmode.cs" />
+    <Compile Include="Hall.cs" />
+    <Compile Include="Para_ReservationTicket.cs" />
+    <Compile Include="Para_SeatPrices.cs" />
+    <Compile Include="Para_TicketPrintInfo.cs" />
+    <Compile Include="Para_Voucher.cs" />
+    <Compile Include="Para_VoucherAdd.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="Paymenttype.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Printsetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refund.cs" />
+    <Compile Include="Reservation.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="Seat.cs" />
+    <Compile Include="Seatingchart.cs" />
+    <Compile Include="Seatstatus.cs" />
+    <Compile Include="Seattype.cs" />
+    <Compile Include="Showplan.cs" />
+    <Compile Include="Showtype.cs" />
+    <Compile Include="Specialoffer.cs" />
+    <Compile Include="Tax.cs" />
+    <Compile Include="Template.cs" />
+    <Compile Include="Templateitem.cs" />
+    <Compile Include="Theater.cs" />
+    <Compile Include="Theatertype.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="TicketCount.cs" />
+    <Compile Include="Timesetting.cs" />
+    <Compile Include="Uploadsetting.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Para_UserSoldInfo.cs" />
+    <Compile Include="Voucher.cs" />
+    <Compile Include="Voucherbatch.cs" />
+    <Compile Include="Vouchertype.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7F6AEB0-A653-4918-83B9-3FFA0EA849A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinFormUI</RootNamespace>
+    <AssemblyName>WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="DataObject, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DataObject.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="RCLibrary.CheckBoxComboBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DataManage\RCLibrary.CheckBoxComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="RCLibrary.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DataManage\RCLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RCLibrary.DataGridViewExpand, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FlamingoDat\RCLibrary.DataGridViewExpand.dll</HintPath>
+    </Reference>
+    <Reference Include="RegistryWin32, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RegistryWin32.dll</HintPath>
+    </Reference>
+    <Reference Include="SeatMaDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SeatMaDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BI\Block.cs" />
+    <Compile Include="BI\BlockPrice.cs" />
+    <Compile Include="BI\Hall.cs" />
+    <Compile Include="BI\MapEditorRule.cs" />
+    <Compile Include="BI\MapEditorShape.cs" />
+    <Compile Include="BI\OnLineUserLog.cs" />
+    <Compile Include="BI\SeatItemAction.cs" />
+    <Compile Include="BI\Seatstatus.cs" />
+    <Compile Include="BI\ShowPlan.cs" />
+    <Compile Include="BI\TheaterInfo.cs" />
+    <Compile Include="DataManage\BaseForm\frmManageBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\BaseForm\frmManageBase.Designer.cs">
+      <DependentUpon>frmManageBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmDownloadSettingManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmDownloadSettingManage.Designer.cs">
+      <DependentUpon>frmDownloadSettingManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmAreaManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmAreaManage.Designer.cs">
+      <DependentUpon>frmFilmAreaManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmCategoryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmCategoryManage.Designer.cs">
+      <DependentUpon>frmFilmCategoryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmDownloadManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmDownloadManage.Designer.cs">
+      <DependentUpon>frmFilmDownloadManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmDownloadSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmDownloadSetting.Designer.cs">
+      <DependentUpon>frmFilmDownloadSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmInfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmInfoManage.Designer.cs">
+      <DependentUpon>frmFilmInfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmManage.Designer.cs">
+      <DependentUpon>frmFilmManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmModeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmModeManage.Designer.cs">
+      <DependentUpon>frmFilmModeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmTypeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmFilmTypeManage.designer.cs">
+      <DependentUpon>frmFilmTypeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmPoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\FilmManage\frmPoster.Designer.cs">
+      <DependentUpon>frmPoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmAnthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmAnthorization.Designer.cs">
+      <DependentUpon>frmAnthorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmDiscountManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmDiscountManage.Designer.cs">
+      <DependentUpon>frmDiscountManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmFareSettingManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmFareSettingManage.Designer.cs">
+      <DependentUpon>frmFareSettingManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmFilmHallManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmFilmHallManage.Designer.cs">
+      <DependentUpon>frmFilmHallManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmImport.Designer.cs">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmShowTypeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmShowTypeManage.Designer.cs">
+      <DependentUpon>frmShowTypeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTaxManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTaxManage.Designer.cs">
+      <DependentUpon>frmTaxManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTheaterInfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTheaterInfoManage.Designer.cs">
+      <DependentUpon>frmTheaterInfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTheaterManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTheaterManage.Designer.cs">
+      <DependentUpon>frmTheaterManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTimeSettingManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmTimeSettingManage.Designer.cs">
+      <DependentUpon>frmTimeSettingManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmUploadSettingManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TheaterManage\frmUploadSettingManage.Designer.cs">
+      <DependentUpon>frmUploadSettingManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmBestowCircsStatManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmBestowCircsStatManage.Designer.cs">
+      <DependentUpon>frmBestowCircsStatManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmChangeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmChangeManage.Designer.cs">
+      <DependentUpon>frmChangeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmCustomerManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmCustomerManage.Designer.cs">
+      <DependentUpon>frmCustomerManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmCustomerTypeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmCustomerTypeManage.Designer.cs">
+      <DependentUpon>frmCustomerTypeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmDebtManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmDebtManage.Designer.cs">
+      <DependentUpon>frmDebtManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmSingleVoucherBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmSingleVoucherBatch.Designer.cs">
+      <DependentUpon>frmSingleVoucherBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmTicketManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmTicketManage.Designer.cs">
+      <DependentUpon>frmTicketManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmTicketSaleStatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmTicketSaleStatistic.Designer.cs">
+      <DependentUpon>frmTicketSaleStatistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherBatchManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherBatchManage.Designer.cs">
+      <DependentUpon>frmVoucherBatchManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherManage.Designer.cs">
+      <DependentUpon>frmVoucherManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherSubType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherSubType.Designer.cs">
+      <DependentUpon>frmVoucherSubType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherTypeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataManage\TicketManage\frmVoucherTypeManage.Designer.cs">
+      <DependentUpon>frmVoucherTypeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flamingoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>flamingoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\FrmParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\FrmParameter.Designer.cs">
+      <DependentUpon>FrmParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\FrmReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\FrmReporting.Designer.cs">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\UploadRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\UploadRpt.Designer.cs">
+      <DependentUpon>UploadRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\ModulePermissions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RightUI\ModulePermissions.designer.cs">
+      <DependentUpon>ModulePermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\RoleAndUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\RoleAndUser.Designer.cs">
+      <DependentUpon>RoleAndUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\RoleName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\RoleName.designer.cs">
+      <DependentUpon>RoleName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\RoleSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\RoleSetting.designer.cs">
+      <DependentUpon>RoleSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\UserName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\UserName.designer.cs">
+      <DependentUpon>UserName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\UserPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\UserPermission.designer.cs">
+      <DependentUpon>UserPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\UserRightSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\UserRightSetting.designer.cs">
+      <DependentUpon>UserRightSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RightUI\UserRoleSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RightUI\UserRoleSetting.designer.cs">
+      <DependentUpon>UserRoleSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\BarCodeSetupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\BarCodeSetupBox.Designer.cs">
+      <DependentUpon>BarCodeSetupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmDebt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmDebt.Designer.cs">
+      <DependentUpon>frmDebt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmDiscount.Designer.cs">
+      <DependentUpon>frmDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmDiscountT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmDiscountT.Designer.cs">
+      <DependentUpon>frmDiscountT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmFillUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmFillUp.Designer.cs">
+      <DependentUpon>frmFillUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmQuery.Designer.cs">
+      <DependentUpon>frmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmRefund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmRefund.Designer.cs">
+      <DependentUpon>frmRefund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservation.Designer.cs">
+      <DependentUpon>frmReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationOut.Designer.cs">
+      <DependentUpon>frmReservationOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationQuery.Designer.cs">
+      <DependentUpon>frmReservationQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationValidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmReservationValidate.Designer.cs">
+      <DependentUpon>frmReservationValidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmTemplateChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmTemplateChoose.Designer.cs">
+      <DependentUpon>frmTemplateChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmValidateTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmValidateTicket.Designer.cs">
+      <DependentUpon>frmValidateTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucher.Designer.cs">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucherSubstitute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucherSubstitute.Designer.cs">
+      <DependentUpon>frmVoucherSubstitute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucherTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmVoucherTickets.Designer.cs">
+      <DependentUpon>frmVoucherTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleTicket\Print.cs" />
+    <Compile Include="ShowPlanManage\ColorBorderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\ColorBorderLabel.Designer.cs">
+      <DependentUpon>ColorBorderLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\DoubleBufferedLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\DoubleBufferedLabel.Designer.cs">
+      <DependentUpon>DoubleBufferedLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmBlockPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmBlockPriceSet.Designer.cs">
+      <DependentUpon>frmBlockPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmCopyShowPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmCopyShowPlan.Designer.cs">
+      <DependentUpon>frmCopyShowPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmDayilyShowPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmDayilyShowPlan.Designer.cs">
+      <DependentUpon>frmDayilyShowPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmBoxOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmBoxOffice.Designer.cs">
+      <DependentUpon>frmFilmBoxOffice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmPriceSet.Designer.cs">
+      <DependentUpon>frmFilmPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmFilmSet.Designer.cs">
+      <DependentUpon>frmFilmSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmHallPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmHallPriceSet.Designer.cs">
+      <DependentUpon>frmHallPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmManualWeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmManualWeave.Designer.cs">
+      <DependentUpon>frmManualWeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmPeriodPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmPeriodPriceSet.Designer.cs">
+      <DependentUpon>frmPeriodPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmSelectBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmSelectBlock.Designer.cs">
+      <DependentUpon>frmSelectBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmShowPlanPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmShowPlanPriceSet.Designer.cs">
+      <DependentUpon>frmShowPlanPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmTheterPriceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmTheterPriceSet.Designer.cs">
+      <DependentUpon>frmTheterPriceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmUpdateShowPlanInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\frmUpdateShowPlanInfo.Designer.cs">
+      <DependentUpon>frmUpdateShowPlanInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPlanManage\ShowPlanPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShowPlanManage\ShowPlanPanel.Designer.cs">
+      <DependentUpon>ShowPlanPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateItemName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateItemName.Designer.cs">
+      <DependentUpon>TemplateItemName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateItemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateItemSetting.designer.cs">
+      <DependentUpon>TemplateItemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateListForm.designer.cs">
+      <DependentUpon>TemplateListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplatePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateUI\TemplatePrint.designer.cs">
+      <DependentUpon>TemplatePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplatePrintCore.cs" />
+    <Compile Include="TemplateUI\TemplateSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateSettingForm.designer.cs">
+      <DependentUpon>TemplateSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateUI\TemplateSettingType.cs" />
+    <Compile Include="TemplateUI\VoucherPrintCore.cs" />
+    <Compile Include="UserControls\UC_LabelLPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_LabelLPanel.Designer.cs">
+      <DependentUpon>UC_LabelLPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ImageButtonItem.cs" />
+    <Compile Include="UserControls\SeatChartDispExt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SeatChartDispExt.Designer.cs">
+      <DependentUpon>SeatChartDispExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SeatChartDispScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SeatChartDispScreen.Designer.cs">
+      <DependentUpon>SeatChartDispScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfo.designer.cs">
+      <DependentUpon>UC_HallInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfoSeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfoSeek.Designer.cs">
+      <DependentUpon>UC_HallInfoSeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfoSeekAll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_HallInfoSeekAll.Designer.cs">
+      <DependentUpon>UC_HallInfoSeekAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButton.Designer.cs">
+      <DependentUpon>UC_ImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonPanel.designer.cs">
+      <DependentUpon>UC_ImageButtonPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonV.designer.cs">
+      <DependentUpon>UC_ImageButtonV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonVPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_ImageButtonVPanel.Designer.cs">
+      <DependentUpon>UC_ImageButtonVPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_LabelVPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_LabelVPanel.Designer.cs">
+      <DependentUpon>UC_LabelVPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_SiteMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SiteMenu.designer.cs">
+      <DependentUpon>UC_SiteMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgCreateBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgCreateBlock.Designer.cs">
+      <DependentUpon>DlgCreateBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgCreateBlockPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgCreateBlockPrice.designer.cs">
+      <DependentUpon>DlgCreateBlockPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSelect.designer.cs">
+      <DependentUpon>DlgGroupControlSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSetBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSetBlock.Designer.cs">
+      <DependentUpon>DlgGroupControlSetBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSetType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgGroupControlSetType.designer.cs">
+      <DependentUpon>DlgGroupControlSetType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgSeatingChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgSeatingChart.Designer.cs">
+      <DependentUpon>DlgSeatingChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgSelectedSeatPo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgSelectedSeatPo.Designer.cs">
+      <DependentUpon>DlgSelectedSeatPo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSeatChartImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSeatChartImport.designer.cs">
+      <DependentUpon>FrmSeatChartImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetBlock.designer.cs">
+      <DependentUpon>FrmSeatChartResetBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetBlockPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetBlockPrice.Designer.cs">
+      <DependentUpon>FrmSeatChartResetBlockPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSeatChartResetType.Designer.cs">
+      <DependentUpon>FrmSeatChartResetType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DlgMultiSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DlgMultiSelect.Designer.cs">
+      <DependentUpon>DlgMultiSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmTicket .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmTicket .designer.cs">
+      <DependentUpon>FrmTicket .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaleTicket\frmChooseFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleTicket\frmChooseFilm.Designer.cs">
+      <DependentUpon>frmChooseFilm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DataManage\BaseForm\frmManageBase.resx">
+      <DependentUpon>frmManageBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmDownloadSettingManage.resx">
+      <DependentUpon>frmDownloadSettingManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmAreaManage.resx">
+      <DependentUpon>frmFilmAreaManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmCategoryManage.resx">
+      <DependentUpon>frmFilmCategoryManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmDownloadManage.resx">
+      <DependentUpon>frmFilmDownloadManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmDownloadSetting.resx">
+      <DependentUpon>frmFilmDownloadSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmInfoManage.resx">
+      <DependentUpon>frmFilmInfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmManage.resx">
+      <DependentUpon>frmFilmManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmModeManage.resx">
+      <DependentUpon>frmFilmModeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmFilmTypeManage.resx">
+      <DependentUpon>frmFilmTypeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\FilmManage\frmPoster.resx">
+      <DependentUpon>frmPoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmAnthorization.resx">
+      <DependentUpon>frmAnthorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmDiscountManage.resx">
+      <DependentUpon>frmDiscountManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmFareSettingManage.resx">
+      <DependentUpon>frmFareSettingManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmFilmHallManage.resx">
+      <DependentUpon>frmFilmHallManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmImport.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmShowTypeManage.resx">
+      <DependentUpon>frmShowTypeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmTaxManage.resx">
+      <DependentUpon>frmTaxManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmTheaterInfoManage.resx">
+      <DependentUpon>frmTheaterInfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmTheaterManage.resx">
+      <DependentUpon>frmTheaterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmTimeSettingManage.resx">
+      <DependentUpon>frmTimeSettingManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TheaterManage\frmUploadSettingManage.resx">
+      <DependentUpon>frmUploadSettingManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmBestowCircsStatManage.resx">
+      <DependentUpon>frmBestowCircsStatManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmChangeManage.resx">
+      <DependentUpon>frmChangeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmCustomerManage.resx">
+      <DependentUpon>frmCustomerManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmCustomerTypeManage.resx">
+      <DependentUpon>frmCustomerTypeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmDebtManage.resx">
+      <DependentUpon>frmDebtManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmSingleVoucherBatch.resx">
+      <DependentUpon>frmSingleVoucherBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmTicketManage.resx">
+      <DependentUpon>frmTicketManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmTicketSaleStatistic.resx">
+      <DependentUpon>frmTicketSaleStatistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmVoucherBatchManage.resx">
+      <DependentUpon>frmVoucherBatchManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmVoucherManage.resx">
+      <DependentUpon>frmVoucherManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmVoucherSubType.resx">
+      <DependentUpon>frmVoucherSubType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManage\TicketManage\frmVoucherTypeManage.resx">
+      <DependentUpon>frmVoucherTypeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\FrmParameter.resx">
+      <DependentUpon>FrmParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\FrmReporting.resx">
+      <DependentUpon>FrmReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\Reports\BarFilmIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\BarHallIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\DailyAnalysisRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\DailyFilmRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\FilmRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\GroupClassTicketSale.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\LineFilmIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\LineHallIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\LineIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\MonthlyAnalysisRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\MonthlyFilmRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\MonthlyShowRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PersonalDailyIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PersonalDailyIncomeGroup.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PersonalDailySales.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PersonalDailySalesGroup.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PieFilmIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PieHallIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\PieTicketType.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\RefundRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\ShowPlanRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\TheaterDailyIncome.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\TheaterDailySales.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\TicketReport.rdlc" />
+    <EmbeddedResource Include="Reporting\Reports\TicketRpt.rdlc" />
+    <EmbeddedResource Include="Reporting\UploadRpt.resx">
+      <DependentUpon>UploadRpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\ModulePermissions.resx">
+      <DependentUpon>ModulePermissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\RoleAndUser.resx">
+      <DependentUpon>RoleAndUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\RoleName.resx">
+      <DependentUpon>RoleName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\RoleSetting.resx">
+      <DependentUpon>RoleSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\UserName.resx">
+      <DependentUpon>UserName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\UserPermission.resx">
+      <DependentUpon>UserPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\UserRightSetting.resx">
+      <DependentUpon>UserRightSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RightUI\UserRoleSetting.resx">
+      <DependentUpon>UserRoleSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\BarCodeSetupBox.resx">
+      <DependentUpon>BarCodeSetupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmDebt.resx">
+      <DependentUpon>frmDebt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmDiscount.resx">
+      <DependentUpon>frmDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmDiscountT.resx">
+      <DependentUpon>frmDiscountT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmFillUp.resx">
+      <DependentUpon>frmFillUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmQuery.resx">
+      <DependentUpon>frmQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmRefund.resx">
+      <DependentUpon>frmRefund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmReservation.resx">
+      <DependentUpon>frmReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmReservationOut.resx">
+      <DependentUpon>frmReservationOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmReservationQuery.resx">
+      <DependentUpon>frmReservationQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmReservationValidate.resx">
+      <DependentUpon>frmReservationValidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmTemplateChoose.resx">
+      <DependentUpon>frmTemplateChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmValidateTicket.resx">
+      <DependentUpon>frmValidateTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmVoucher.resx">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmVoucherSubstitute.resx">
+      <DependentUpon>frmVoucherSubstitute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleTicket\frmVoucherTickets.resx">
+      <DependentUpon>frmVoucherTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmBlockPriceSet.resx">
+      <DependentUpon>frmBlockPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmCopyShowPlan.resx">
+      <DependentUpon>frmCopyShowPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmDayilyShowPlan.resx">
+      <DependentUpon>frmDayilyShowPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmFilmBoxOffice.resx">
+      <DependentUpon>frmFilmBoxOffice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmFilmPriceSet.resx">
+      <DependentUpon>frmFilmPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmFilmSet.resx">
+      <DependentUpon>frmFilmSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmHallPriceSet.resx">
+      <DependentUpon>frmHallPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmManualWeave.resx">
+      <DependentUpon>frmManualWeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmPeriodPriceSet.resx">
+      <DependentUpon>frmPeriodPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmSelectBlock.resx">
+      <DependentUpon>frmSelectBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmShowPlanPriceSet.resx">
+      <DependentUpon>frmShowPlanPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmTheterPriceSet.resx">
+      <DependentUpon>frmTheterPriceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPlanManage\frmUpdateShowPlanInfo.resx">
+      <DependentUpon>frmUpdateShowPlanInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateUI\TemplateItemName.resx">
+      <DependentUpon>TemplateItemName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateUI\TemplateItemSetting.resx">
+      <DependentUpon>TemplateItemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateUI\TemplateListForm.resx">
+      <DependentUpon>TemplateListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateUI\TemplatePrint.resx">
+      <DependentUpon>TemplatePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateUI\TemplateSettingForm.resx">
+      <DependentUpon>TemplateSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_LabelLPanel.resx">
+      <DependentUpon>UC_LabelLPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SeatChartDispExt.resx">
+      <DependentUpon>SeatChartDispExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SeatChartDispScreen.resx">
+      <DependentUpon>SeatChartDispScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_HallInfo.resx">
+      <DependentUpon>UC_HallInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_HallInfoSeek.resx">
+      <DependentUpon>UC_HallInfoSeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_HallInfoSeekAll.resx">
+      <DependentUpon>UC_HallInfoSeekAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_ImageButton.resx">
+      <DependentUpon>UC_ImageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_ImageButtonPanel.resx">
+      <DependentUpon>UC_ImageButtonPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_ImageButtonV.resx">
+      <DependentUpon>UC_ImageButtonV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_ImageButtonVPanel.resx">
+      <DependentUpon>UC_ImageButtonVPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_LabelVPanel.resx">
+      <DependentUpon>UC_LabelVPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SiteMenu.resx">
+      <DependentUpon>UC_SiteMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgCreateBlock.resx">
+      <DependentUpon>DlgCreateBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgCreateBlockPrice.resx">
+      <DependentUpon>DlgCreateBlockPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgGroupControlSelect.resx">
+      <DependentUpon>DlgGroupControlSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgGroupControlSetBlock.resx">
+      <DependentUpon>DlgGroupControlSetBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgGroupControlSetType.resx">
+      <DependentUpon>DlgGroupControlSetType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgSeatingChart.resx">
+      <DependentUpon>DlgSeatingChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgSelectedSeatPo.resx">
+      <DependentUpon>DlgSelectedSeatPo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSeatChartImport.resx">
+      <DependentUpon>FrmSeatChartImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSeatChartResetBlock.resx">
+      <DependentUpon>FrmSeatChartResetBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSeatChartResetBlockPrice.resx">
+      <DependentUpon>FrmSeatChartResetBlockPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSeatChartResetType.resx">
+      <DependentUpon>FrmSeatChartResetType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DlgMultiSelect.resx">
+      <DependentUpon>DlgMultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmTicket .resx">
+      <DependentUpon>FrmTicket .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SaleTicket\frmChooseFilm.resx">
+      <DependentUpon>frmChooseFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flamingoDataSet.xsc">
+      <DependentUpon>flamingoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="flamingoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>flamingoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flamingoDataSet.xss">
+      <DependentUpon>flamingoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{E315DDE2-205B-4D01-903C-567EAA6F5E89}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{2BD7F485-D3FA-4B52-B68F-EF1C1868DDD5}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataManageLib\DataManageLib.csproj">
+      <Project>{4507D0F5-911D-47AC-8A6C-E04A18FE4A85}</Project>
+      <Name>DataManageLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{BBD0F1FE-0FDB-4841-8AAF-C80EA14A6EDE}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flamingo.Right\Flamingo.Right.csproj">
+      <Project>{DA922201-4680-4CEF-B783-E1D68B7E505D}</Project>
+      <Name>Flamingo.Right</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Flamingo.TemplateCore\Flamingo.TemplateCore.csproj">
+      <Project>{5C099E3E-41AB-48F5-AB36-4EEE07ACEF3B}</Project>
+      <Name>Flamingo.TemplateCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlamingoDat\FlamingoDat.csproj">
+      <Project>{D7209844-AA1F-48BE-BE13-79B4D3E8D007}</Project>
+      <Name>FlamingoDat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Keygen\Keygen.csproj">
+      <Project>{D350E28A-1AE7-4293-878D-1658CC2B8F26}</Project>
+      <Name>Keygen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShowPlanManageLib\ShowPlanManageLib.csproj">
+      <Project>{3816E467-F37D-4811-BC75-6F063F143290}</Project>
+      <Name>ShowPlanManageLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\images\imgs\showplan\" />
+    <Folder Include="Files\" />
+    <Folder Include="Resources\ShowPlan\" />
+    <Folder Include="Resources\Template\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BarCode.dll" />
+    <Content Include="bin\Debug\DataObject.dll" />
+    <Content Include="bin\Debug\Files\Setting.xml" />
+    <Content Include="bin\Debug\images\film\falm0.jpg" />
+    <Content Include="bin\Debug\images\film\fialm3.jpg" />
+    <Content Include="bin\Debug\images\film\film1.jpg" />
+    <Content Include="bin\Debug\images\film\film2.jpg" />
+    <Content Include="bin\Debug\images\film\filmNone.jpg" />
+    <Content Include="bin\Debug\images\imgs\0101.jpg" />
+    <Content Include="bin\Debug\images\imgs\dailyplandate.jpg" />
+    <Content Include="bin\Debug\images\imgs\dailyplandate_.jpg" />
+    <Content Include="bin\Debug\RegistryWin32.dll" />
+    <Content Include="bin\Debug\SeatMaDll.dll" />
+    <Content Include="DataManage\RefFiles\RCLibrary.CheckBoxComboBox.dll" />
+    <Content Include="DataManage\RefFiles\RCLibrary.Common.dll" />
+    <Content Include="DataManage\RefFiles\RCLibrary.DataGridViewExpand.dll" />
+    <Content Include="images\film\falm0.jpg" />
+    <Content Include="images\film\fialm3.jpg" />
+    <Content Include="images\film\film1.jpg" />
+    <Content Include="images\film\film2.jpg" />
+    <Content Include="images\imgs\0.jpg" />
+    <Content Include="images\imgs\1.jpg" />
+    <Content Include="images\imgs\1129.jpg" />
+    <Content Include="images\imgs\1130.jpg" />
+    <Content Include="images\imgs\1201.jpg" />
+    <Content Include="images\imgs\1202.jpg" />
+    <Content Include="images\imgs\1203.jpg" />
+    <Content Include="images\imgs\1204.jpg" />
+    <Content Include="images\imgs\1205.jpg" />
+    <Content Include="images\imgs\1206.jpg" />
+    <Content Include="images\imgs\1207.jpg" />
+    <Content Include="images\imgs\1208.jpg" />
+    <Content Include="images\imgs\1209.jpg" />
+    <Content Include="images\imgs\1210.jpg" />
+    <Content Include="images\imgs\1211.jpg" />
+    <Content Include="images\imgs\1212.jpg" />
+    <Content Include="images\imgs\2.jpg" />
+    <Content Include="images\imgs\3.jpg" />
+    <Content Include="images\imgs\4.jpg" />
+    <Content Include="images\imgs\5.jpg" />
+    <Content Include="images\imgs\6.jpg" />
+    <Content Include="images\imgs\7.jpg" />
+    <Content Include="images\imgs\8.jpg" />
+    <Content Include="images\imgs\9.jpg" />
+    <Content Include="images\imgs\dailyplandate.jpg" />
+    <None Include="Resources\BarHeadImg.png" />
+    <Content Include="Resources\BasicQuery.png" />
+    <None Include="Resources\Query.png" />
+    <None Include="Resources\BgImage.jpg" />
+    <Content Include="Resources\Close.gif" />
+    <Content Include="Resources\Copy.png" />
+    <Content Include="Resources\Delete.png" />
+    <Content Include="Resources\DeleteHallPlan.png" />
+    <Content Include="Resources\DeleteShow.png" />
+    <Content Include="Resources\Exit.gif" />
+    <Content Include="Resources\FareSetting.png" />
+    <None Include="Resources\FirstMenu\film1.png" />
+    <None Include="Resources\FirstMenu\film2.png" />
+    <Content Include="Resources\FilmManage\downloadmanage1.png" />
+    <Content Include="Resources\FilmManage\downloadmanage2.png" />
+    <Content Include="Resources\FilmManage\downloadsetting1.png" />
+    <Content Include="Resources\FilmManage\downloadsetting2.png" />
+    <Content Include="Resources\FilmManage\filmarea1.png" />
+    <Content Include="Resources\FilmManage\filmarea2.png" />
+    <Content Include="Resources\FilmManage\filmcategory1.png" />
+    <Content Include="Resources\FilmManage\filmcategory2.png" />
+    <Content Include="Resources\FilmManage\filmdownload1.png" />
+    <Content Include="Resources\FilmManage\filmdownload2.png" />
+    <Content Include="Resources\FilmManage\filminfo1.png" />
+    <Content Include="Resources\FilmManage\filminfo2.png" />
+    <Content Include="Resources\FilmManage\filmmode1.png" />
+    <Content Include="Resources\FilmManage\filmmode2.png" />
+    <Content Include="Resources\FilmSetting.png" />
+    <None Include="Resources\FirstMenu\firstmenu.png" />
+    <Content Include="Resources\Footer.png" />
+    <Content Include="Resources\Help.gif" />
+    <None Include="Resources\login.jpg" />
+    <None Include="Resources\icon.ico" />
+    <None Include="Resources\main.jpg" />
+    <Content Include="Resources\Min.gif" />
+    <None Include="Resources\More灰.png" />
+    <None Include="Resources\More.png" />
+    <Content Include="Resources\Print.png" />
+    <Content Include="Resources\QuickQuery.png" />
+    <Content Include="Resources\RecordPlan.png" />
+    <None Include="Resources\FirstMenu\report2.png" />
+    <None Include="Resources\FirstMenu\report1.png" />
+    <Content Include="Resources\Report\business1.png" />
+    <Content Include="Resources\Report\business2.png" />
+    <Content Include="Resources\Report\graphic1.png" />
+    <Content Include="Resources\Report\graphic2.png" />
+    <Content Include="Resources\Report\query1.png" />
+    <Content Include="Resources\Report\query2.png" />
+    <Content Include="Resources\Report\statistics1.png" />
+    <Content Include="Resources\Report\statistics2.png" />
+    <Content Include="Resources\Report\ticket1.png" />
+    <Content Include="Resources\Report\ticket2.png" />
+    <Content Include="Resources\Report\total1.png" />
+    <Content Include="Resources\Report\total2.png" />
+    <Content Include="Resources\Save.png" />
+    <None Include="Resources\screen.png" />
+    <None Include="Resources\FirstMenu\showplan2.png" />
+    <None Include="Resources\FirstMenu\showplan1.png" />
+    <None Include="Resources\FirstMenu\seatingchart2.png" />
+    <None Include="Resources\FirstMenu\seatingchart1.png" />
+    <None Include="Resources\FirstMenu\theater2.png" />
+    <None Include="Resources\FirstMenu\theater1.png" />
+    <None Include="Resources\FirstMenu\ticket2.png" />
+    <None Include="Resources\FirstMenu\ticket1.png" />
+    <None Include="Resources\FirstMenu\template1.png" />
+    <None Include="Resources\FirstMenu\template2.png" />
+    <None Include="Resources\SeatChartFlag.png" />
+    <Content Include="Resources\SeatingChart\block1.png" />
+    <Content Include="Resources\SeatingChart\block2.png" />
+    <Content Include="Resources\SeatingChart\seatingchartimport1.png" />
+    <Content Include="Resources\SeatingChart\seatingchartimport2.png" />
+    <Content Include="Resources\SeatingChart\seattype1.png" />
+    <Content Include="Resources\SeatingChart\seattype2.png" />
+    <Content Include="Resources\Seats\Blue0.png" />
+    <Content Include="Resources\Seats\Blue1.png" />
+    <Content Include="Resources\Seats\Blue2.png" />
+    <Content Include="Resources\Seats\Blue3.png" />
+    <Content Include="Resources\Seats\Blue4.png" />
+    <Content Include="Resources\Seats\Blue5.png" />
+    <Content Include="Resources\Seats\Blue6.png" />
+    <Content Include="Resources\Seats\Blue7.png" />
+    <Content Include="Resources\Seats\Blue8.png" />
+    <Content Include="Resources\Seats\Green0.png" />
+    <Content Include="Resources\Seats\Green1.png" />
+    <Content Include="Resources\Seats\Green2.png" />
+    <Content Include="Resources\Seats\Green3.png" />
+    <Content Include="Resources\Seats\Green4.png" />
+    <Content Include="Resources\Seats\Green5.png" />
+    <Content Include="Resources\Seats\Green6.png" />
+    <Content Include="Resources\Seats\Green7.png" />
+    <Content Include="Resources\Seats\Green8.png" />
+    <Content Include="Resources\Seats\Pink0.png" />
+    <Content Include="Resources\Seats\Pink1.png" />
+    <Content Include="Resources\Seats\Pink2.png" />
+    <Content Include="Resources\Seats\Pink3.png" />
+    <Content Include="Resources\Seats\Pink4.png" />
+    <Content Include="Resources\Seats\Pink5.png" />
+    <Content Include="Resources\Seats\Pink6.png" />
+    <Content Include="Resources\Seats\Pink7.png" />
+    <Content Include="Resources\Seats\Pink8.png" />
+    <Content Include="Resources\Seats\Red0.png" />
+    <Content Include="Resources\Seats\Red1.png" />
+    <Content Include="Resources\Seats\Red2.png" />
+    <Content Include="Resources\Seats\Red3.png" />
+    <Content Include="Resources\Seats\Red4.png" />
+    <Content Include="Resources\Seats\Red5.png" />
+    <Content Include="Resources\Seats\Red6.png" />
+    <Content Include="Resources\Seats\Red7.png" />
+    <Content Include="Resources\Seats\Red8.png" />
+    <Content Include="Resources\Seats\Wheelchair.png" />
+    <Content Include="Resources\Seats\Yellow0.png" />
+    <Content Include="Resources\Seats\Yellow1.png" />
+    <Content Include="Resources\Seats\Yellow2.png" />
+    <Content Include="Resources\Seats\Yellow3.png" />
+    <Content Include="Resources\Seats\Yellow4.png" />
+    <Content Include="Resources\Seats\Yellow5.png" />
+    <Content Include="Resources\Seats\Yellow6.png" />
+    <Content Include="Resources\Seats\Yellow7.png" />
+    <Content Include="Resources\Seats\Yellow8.png" />
+    <Content Include="Resources\SecondMenu\secondb.png" />
+    <Content Include="Resources\SecondMenu\secondmenu.png" />
+    <Content Include="Resources\SecondMenu\secondy.png" />
+    <None Include="Resources\DigitalClock\T0.png" />
+    <None Include="Resources\DigitalClock\T1.png" />
+    <None Include="Resources\DigitalClock\T2.png" />
+    <None Include="Resources\DigitalClock\T3.png" />
+    <None Include="Resources\DigitalClock\T4.png" />
+    <None Include="Resources\DigitalClock\T5.png" />
+    <None Include="Resources\DigitalClock\T6.png" />
+    <None Include="Resources\DigitalClock\T7.png" />
+    <None Include="Resources\DigitalClock\T8.png" />
+    <None Include="Resources\DigitalClock\T9.png" />
+    <Content Include="Resources\TheaterManage\config1.png" />
+    <Content Include="Resources\TheaterManage\config2.png" />
+    <Content Include="Resources\TheaterManage\discount1.png" />
+    <Content Include="Resources\TheaterManage\discount2.png" />
+    <Content Include="Resources\TheaterManage\hall1.png" />
+    <Content Include="Resources\TheaterManage\hall2.png" />
+    <Content Include="Resources\TheaterManage\price1.png" />
+    <Content Include="Resources\TheaterManage\price2.png" />
+    <Content Include="Resources\TheaterManage\showtype1.png" />
+    <Content Include="Resources\TheaterManage\showtype2.png" />
+    <Content Include="Resources\TheaterManage\tax1.png" />
+    <Content Include="Resources\TheaterManage\tax2.png" />
+    <Content Include="Resources\TheaterManage\theaterinfo1.png" />
+    <Content Include="Resources\TheaterManage\theaterinfo2.png" />
+    <Content Include="Resources\TheaterManage\timesetting1.png" />
+    <Content Include="Resources\TheaterManage\timesetting2.png" />
+    <Content Include="Resources\TheaterManage\upload1.png" />
+    <Content Include="Resources\TheaterManage\upload2.png" />
+    <Content Include="Resources\ThirdMenu\thirdmenu.png" />
+    <Content Include="Resources\TicketSale\btnleft.png" />
+    <Content Include="Resources\TicketSale\btnright.png" />
+    <Content Include="Resources\TicketSale\TicketSalebkimg1.png" />
+    <Content Include="Resources\TicketSale\TicketSalebkimg2.png" />
+    <None Include="Resources\TicketSale\TicketSalebkimg3.png" />
+    <None Include="Resources\TicketSale\TicketSaleVoucherbk.png" />
+    <None Include="Resources\TicketSale\TicketSaleVoucherbk1.png" />
+    <Content Include="Resources\TicketSale\TicketSale_btnbkimg.png" />
+    <Content Include="Resources\TicketSale\TicketSale_btnSelectedbkimg.png" />
+    <Content Include="Resources\Title.png" />
+    <None Include="Resources\piaoban.jpg" />
+    <None Include="Resources\titlebar.png" />
+    <None Include="Resources\DigitalClock\TM.png" />
+    <Content Include="Resources\top.jpg" />
+    <None Include="Resources\不适宜.png" />
+    <None Include="Resources\停用席.png" />
+    <None Include="Resources\工作席.png" />
+    <None Include="Resources\残障护理.png" />
+    <None Include="Resources\残障席.png" />
+    <None Include="Resources\特殊席.png" />
+    <None Include="Resources\特殊锁定.png" />
+    <None Include="Resources\FirstMenu\voucher1.png" />
+    <None Include="Resources\FirstMenu\voucher2.png" />
+    <None Include="Resources\FirstMenu\user1.png" />
+    <None Include="Resources\FirstMenu\user2.png" />
+    <None Include="Resources\售票选择.PNG" />
+    <Content Include="Resources\UserManage\basicinfo1.png" />
+    <Content Include="Resources\UserManage\basicinfo2.png" />
+    <Content Include="Resources\UserManage\rolepermission1.png" />
+    <Content Include="Resources\UserManage\rolepermission2.png" />
+    <Content Include="Resources\UserManage\userpermission1.png" />
+    <Content Include="Resources\UserManage\userpermission2.png" />
+    <Content Include="Resources\UserManage\userrole1.png" />
+    <Content Include="Resources\UserManage\userrole2.png" />
+    <Content Include="Resources\Voucher\customermanage1.png" />
+    <Content Include="Resources\Voucher\customermanage2.png" />
+    <Content Include="Resources\Voucher\customertype1.png" />
+    <Content Include="Resources\Voucher\customertype2.png" />
+    <Content Include="Resources\Voucher\debt1.png" />
+    <Content Include="Resources\Voucher\debt2.png" />
+    <Content Include="Resources\Voucher\subtype1.png" />
+    <Content Include="Resources\Voucher\subtype2.png" />
+    <Content Include="Resources\Voucher\voucherbatch1.png" />
+    <Content Include="Resources\Voucher\voucherbatch2.png" />
+    <Content Include="Resources\Voucher\vouchertype1.png" />
+    <Content Include="Resources\Voucher\vouchertype2.png" />
+    <Content Include="Resources\空位.png" />
+    <None Include="Resources\锁定.png" />
+    <Content Include="Resources\预定.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

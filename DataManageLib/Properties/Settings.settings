@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Flamingo.DataManageLib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StartYear" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2001</Value>
+    </Setting>
+    <Setting Name="YearPara" Type="System.String" Scope="User">
+      <Value Profile="(Default)">****</Value>
+    </Setting>
+    <Setting Name="DownloadMethod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HTTP</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

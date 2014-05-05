@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="More灰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\More灰.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\report1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vouchertype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\vouchertype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\close.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theater1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\theater1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seatingchart2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\seatingchart2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seatingchart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\seatingchart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuickQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\quickquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="showplan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\showplan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\ticket1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\help.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="block2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\block2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="空位" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\空位.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="query2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\query2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\hall2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downloadmanage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\downloadmanage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSalebkimg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSalebkimg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmarea2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmarea2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSalebkimg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSalebkimg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="template2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\template2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarHeadImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarHeadImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titlebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titlebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmdownload1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmdownload1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basicinfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\basicinfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\business2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userrole1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\userrole1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\ticket2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seattype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\seattype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="showtype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\showtype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statistics2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\statistics2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSaleVoucherbk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSaleVoucherbk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downloadsetting1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\downloadsetting1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSale_btnSelectedbkimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSale_btnSelectedbkimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customermanage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\customermanage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vouchertype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\vouchertype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BgImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BgImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discount2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\discount2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="预定" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\预定.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\report2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSalebkimg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSalebkimg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\debt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmmode1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmmode1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customertype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\customertype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSale_btnbkimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSale_btnbkimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userpermission1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\userpermission1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="total2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\total2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="price1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\price1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upload1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\upload1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="售票选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\售票选择.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downloadmanage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\downloadmanage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmcategory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmcategory2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="残障席" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\残障席.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="config2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\config2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rolepermission1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\rolepermission1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="showplan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\showplan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tax2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\tax2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="query1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\query1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voucher1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\voucher1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\hall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voucher2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\voucher2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timesetting2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\timesetting2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\btnright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecordPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\recordplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="停用席" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\停用席.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secondy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SecondMenu\secondy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\ticket2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statistics1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\statistics1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="piaoban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\piaoban.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="特殊锁定" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\特殊锁定.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\film2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\user2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secondmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SecondMenu\secondmenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filminfo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filminfo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteShow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\deleteshow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rolepermission2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\rolepermission2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graphic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\graphic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graphic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\graphic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="残障护理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\残障护理.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\exit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\debt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customermanage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\customermanage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\min.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theaterinfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\theaterinfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteHallPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\deletehallplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subtype1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\subtype1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filminfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filminfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voucherbatch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\voucherbatch2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upload2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\upload2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="block1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\block1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilmSetting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filmsetting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工作席" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\工作席.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userpermission2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\userpermission2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="total1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\total1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seatingchartimport1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\seatingchartimport1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report\business1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="不适宜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\不适宜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="price2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\price2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tax1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\tax1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="template1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\template1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmcategory1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmcategory1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmdownload2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmdownload2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeatChartFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatChartFlag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userrole2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\userrole2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seattype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\seattype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timesetting1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\timesetting1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BasicQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\basicquery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theaterinfo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\theaterinfo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Query" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Query.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="config1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\config1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmarea1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmarea1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subtype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\subtype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firstmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\firstmenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\ticket1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\btnleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\film1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theater2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FirstMenu\theater2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="showtype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\showtype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discount1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheaterManage\discount1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="More" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="特殊席" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\特殊席.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voucherbatch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\voucherbatch1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="锁定" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\锁定.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmmode2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\filmmode2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customertype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voucher\customertype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downloadsetting2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilmManage\downloadsetting2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secondb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SecondMenu\secondb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FareSetting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\faresetting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seatingchartimport2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeatingChart\seatingchartimport2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basicinfo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserManage\basicinfo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TicketSaleVoucherbk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TicketSale\TicketSaleVoucherbk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thirdmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\thirdmenu\thirdmenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\T9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DigitalClock\TM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Blue8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Green8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Pink8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Red8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Yellow8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wheelchair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seats\Wheelchair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

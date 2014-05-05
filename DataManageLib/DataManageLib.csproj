@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4507D0F5-911D-47AC-8A6C-E04A18FE4A85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Flamingo.DataManageLib</RootNamespace>
+    <AssemblyName>DataManageLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RCLibrary.CheckBoxComboBox">
+      <HintPath>..\WinFormUI\DataManage\RefFiles\RCLibrary.CheckBoxComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="RCLibrary.Common">
+      <HintPath>..\WinFormUI\DataManage\RefFiles\RCLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RCLibrary.DataGridViewExpand">
+      <HintPath>..\WinFormUI\DataManage\RefFiles\RCLibrary.DataGridViewExpand.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FilmManage\DownloadSettingManage.cs" />
+    <Compile Include="FilmManage\FilmAreaManage.cs" />
+    <Compile Include="FilmManage\FilmCategoryManage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FilmManage\FilmDownloadManage.cs" />
+    <Compile Include="FilmManage\FilmInfoManage.cs" />
+    <Compile Include="FilmManage\FilmModeManage.cs" />
+    <Compile Include="FilmManage\FilmTypeManage.cs" />
+    <Compile Include="Interface\IDataManage.cs" />
+    <Compile Include="Other\Property.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TheaterManage\DiscountManage.cs" />
+    <Compile Include="TheaterManage\DownloadSettingManage.cs" />
+    <Compile Include="TheaterManage\FareSettingManage.cs" />
+    <Compile Include="TheaterManage\FilmHallManage.cs" />
+    <Compile Include="TheaterManage\ShowTypeManage.cs" />
+    <Compile Include="TheaterManage\TaxManage.cs" />
+    <Compile Include="TheaterManage\TheaterInfoManage.cs" />
+    <Compile Include="TheaterManage\TimeSettingManage.cs" />
+    <Compile Include="TheaterManage\UploadSettingManage.cs" />
+    <Compile Include="TicketManage\Anthorization.cs" />
+    <Compile Include="TicketManage\BestowCircsStatManage.cs" />
+    <Compile Include="TicketManage\ChangMange.cs" />
+    <Compile Include="TicketManage\CustomerManage.cs" />
+    <Compile Include="TicketManage\CustomerTypeManage.cs" />
+    <Compile Include="TicketManage\DebtManage.cs" />
+    <Compile Include="TicketManage\SingleVoucherBatch.cs" />
+    <Compile Include="TicketManage\TicketSaleStatistic.cs" />
+    <Compile Include="TicketManage\VoucherBatchManage.cs" />
+    <Compile Include="TicketManage\VoucherManage.cs" />
+    <Compile Include="TicketManage\VoucherTypeManage.cs" />
+    <Compile Include="TicketManage\VoucherTypeSubManage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlamingoDat\FlamingoDat.csproj">
+      <Project>{D7209844-AA1F-48BE-BE13-79B4D3E8D007}</Project>
+      <Name>FlamingoDat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
