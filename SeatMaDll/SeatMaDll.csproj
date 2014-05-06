@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{330CEE61-1E0C-44EF-A879-9ED0F04AA4C3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SeatMaDll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SeatMaDll\BHDirectionBtPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeatMaDll\BHDirectionButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SeatMaDll\BHSeatControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SeatMaDll\BHSeatControlEditer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SeatMaDll\CUtil.cs" />
+    <Compile Include="SeatMaDll\EditerRMSelectOneSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\EditerRMSelectOneSeat_Events.cs" />
+    <Compile Include="SeatMaDll\EditerSelectMultSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\EditerSelectMultSeat_Events.cs" />
+    <Compile Include="SeatMaDll\EditerSelectOneSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\EditerSelectOneSeat_Events.cs" />
+    <Compile Include="SeatMaDll\EditSeatInfo.cs" />
+    <Compile Include="SeatMaDll\EditSeatItem.cs" />
+    <Compile Include="SeatMaDll\InterfaceSetSeatResource.cs" />
+    <Compile Include="SeatMaDll\MouseCursorStatus.cs" />
+    <Compile Include="SeatMaDll\RMSelectOneSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\RMSelectOneSeat_Events.cs" />
+    <Compile Include="SeatMaDll\Seat.cs" />
+    <Compile Include="SeatMaDll\SeatChartDisp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeatMaDll\SeatChartItemSelect.cs" />
+    <Compile Include="SeatMaDll\SeatChartItemSelectDisp.cs" />
+    <Compile Include="SeatMaDll\SeatColumns.cs" />
+    <Compile Include="SeatMaDll\SeatingChart.cs" />
+    <Compile Include="SeatMaDll\SeatResource.cs" />
+    <Compile Include="SeatMaDll\SeatRows.cs" />
+    <Compile Include="SeatMaDll\SeatStatusSim.cs" />
+    <Compile Include="SeatMaDll\SeatType.cs" />
+    <Compile Include="SeatMaDll\SelectMultSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\SelectMultSeat_Events.cs" />
+    <Compile Include="SeatMaDll\SelectOneSeatEventHandler.cs" />
+    <Compile Include="SeatMaDll\SelectOneSeat_Events.cs" />
+    <Compile Include="SeatMaDll\UC_SeatChartPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SeatMaDll\BHDirectionBtPanel.resources" />
+    <EmbeddedResource Include="SeatMaDll\BHSeatControl.resources" />
+    <EmbeddedResource Include="SeatMaDll\BHSeatControlEditer.resources" />
+    <EmbeddedResource Include="SeatMaDll\SeatChartDisp.resources" />
+    <EmbeddedResource Include="SeatMaDll\UC_SeatChartPanel.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

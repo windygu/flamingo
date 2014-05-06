@@ -69,13 +69,8 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BarCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\BarCode.dll</HintPath>
-    </Reference>
-    <Reference Include="DataObject, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DataObject.dll</HintPath>
+    <Reference Include="BarCode">
+      <HintPath>Files\BarCode.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
@@ -91,14 +86,6 @@
     <Reference Include="RCLibrary.DataGridViewExpand, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\FlamingoDat\RCLibrary.DataGridViewExpand.dll</HintPath>
-    </Reference>
-    <Reference Include="RegistryWin32, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\RegistryWin32.dll</HintPath>
-    </Reference>
-    <Reference Include="SeatMaDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\SeatMaDll.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -1233,6 +1220,10 @@
       <Project>{4507D0F5-911D-47AC-8A6C-E04A18FE4A85}</Project>
       <Name>DataManageLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataObject\DataObject.csproj">
+      <Project>{bafea391-40bd-4830-8d44-2518b5e65067}</Project>
+      <Name>DataObject</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{BBD0F1FE-0FDB-4841-8AAF-C80EA14A6EDE}</Project>
       <Name>Entity</Name>
@@ -1252,6 +1243,10 @@
     <ProjectReference Include="..\Keygen\Keygen.csproj">
       <Project>{D350E28A-1AE7-4293-878D-1658CC2B8F26}</Project>
       <Name>Keygen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeatMaDll\SeatMaDll.csproj">
+      <Project>{330cee61-1e0c-44ef-a879-9ed0f04aa4c3}</Project>
+      <Name>SeatMaDll</Name>
     </ProjectReference>
     <ProjectReference Include="..\ShowPlanManageLib\ShowPlanManageLib.csproj">
       <Project>{3816E467-F37D-4811-BC75-6F063F143290}</Project>

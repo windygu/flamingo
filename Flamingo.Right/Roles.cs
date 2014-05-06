@@ -19,7 +19,7 @@ namespace Flamingo.Right
         public Role GetRoleByRoleId(int roleId)
         {
             Role role = new Role();
-            string roleName = manager.GetRoleName(roleId);
+            string roleName = this.manager.GetRoleName(roleId);
             role.RoleId = roleId;
             if (roleName != null)
             {
