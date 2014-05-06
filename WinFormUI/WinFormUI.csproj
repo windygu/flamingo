@@ -1255,7 +1255,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\images\imgs\showplan\" />
-    <Folder Include="Files\" />
     <Folder Include="Resources\ShowPlan\" />
     <Folder Include="Resources\Template\" />
   </ItemGroup>
@@ -1276,6 +1275,10 @@
     <Content Include="DataManage\RefFiles\RCLibrary.CheckBoxComboBox.dll" />
     <Content Include="DataManage\RefFiles\RCLibrary.Common.dll" />
     <Content Include="DataManage\RefFiles\RCLibrary.DataGridViewExpand.dll" />
+    <Content Include="Files\BarCode.dll" />
+    <Content Include="Files\Flamingo.sql" />
+    <Content Include="Files\Permission.sql" />
+    <Content Include="Files\TestData.sql" />
     <Content Include="images\film\falm0.jpg" />
     <Content Include="images\film\fialm3.jpg" />
     <Content Include="images\film\film1.jpg" />
